@@ -1,0 +1,3 @@
+/home/zulbert/sem2/arko/fractal_cpp/arko_fractal_cpp_mandelbrot/build/CMakeFiles/Fractal.dir
+/home/zulbert/sem2/arko/fractal_cpp/arko_fractal_cpp_mandelbrot/build/CMakeFiles/edit_cache.dir
+/home/zulbert/sem2/arko/fractal_cpp/arko_fractal_cpp_mandelbrot/build/CMakeFiles/rebuild_cache.dir
