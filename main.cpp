@@ -40,7 +40,7 @@ int main()
             int iters = is_in_set(std::complex<double>(point_x, point_y));
             if (iters == 0)
             {
-                SDL_SetRenderDrawColor(renderer,0,0,0,200);
+                SDL_SetRenderDrawColor(renderer,50,60,70,255);
                 SDL_RenderDrawPointF(renderer, x * 1000, y * 1000);
             }
             else
@@ -48,10 +48,10 @@ int main()
 
                 SDL_SetRenderDrawColor(
                     renderer,
+                    10 * iters % 25,
                     3 * iters % 25,
-                    3 * iters % 25,
-                    3 * iters % 25,
-                    255);
+                    7 * iters % 25,
+                    0);
                 SDL_RenderDrawPointF(renderer, x * 1000, y * 1000);
             }
         }
